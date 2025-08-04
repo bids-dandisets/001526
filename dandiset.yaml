@@ -14,9 +14,9 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 7243750392
-  numberOfFiles: 212
-  numberOfSubjects: 27
+  numberOfBytes: 8321561884
+  numberOfFiles: 243
+  numberOfSubjects: 30
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10029
@@ -34,7 +34,18 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- identifier: 0000-0002-0302-1355
+  name: Semenov, Iurii
+  schemaKey: Person
+- identifier: 0000-0003-3816-3860
+  name: Pakhomov, Andrei
+  schemaKey: Person
 - awardNumber: 5R21EY034803
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 1R21EY034258
   name: National Institutes of Health
   roleName:
   - dcite:Funder
@@ -61,4 +72,7 @@ version: draft
 wasGeneratedBy:
 - identifier: 5R21EY034803
   name: Next Gen Temporal Interference Stimulation Non-Invasive Neuromodulation
+  schemaKey: Project
+- identifier: 1R21EY034258
+  name: ' Targeted Neuromodulation by Nanosecond Pulsed Electric Fields'
   schemaKey: Project
